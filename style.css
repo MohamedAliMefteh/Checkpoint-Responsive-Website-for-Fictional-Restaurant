@@ -5,6 +5,7 @@
 }
 body{
     background-color: #f5deb3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav{
     display:flex;
@@ -16,7 +17,7 @@ nav{
     background-color: rgba(0, 0, 0, 0.333);
     
 }
-a{
+.navbar a{
     margin:40px;
     color: white;
 }
@@ -35,23 +36,23 @@ a{
     width: 200px;
     margin-bottom: 150px;
 }
-h1{
+.container1 h1{
     margin-bottom: 40px;
     color:white;
     font-size: 3em;
 }
-h3,p{
+.container1 h3,p{
     color: white;
     
 }
-p{
+.container1 p{
     font-size: 2rem;
     margin-top: 20px;
 }
 .cardcontainer{
     display: flex;
     justify-content: space-around;
-    margin:20px 70px;
+    margin:10% 70px;
     padding: 20px;
     background-color: rgb(208,190,158);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -61,24 +62,57 @@ p{
 .imgcards{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 .img1{
-    height: 290px;
-    width:300px;
+    height: calc(2*290px);
+    aspect-ratio: 1;
     border-radius: 10%;
     margin: 20px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
 }
 .img2{
-    height: 190px;
-    width:300px;
+    height: calc(2*190px);
+    width:calc(2*300px);
+    
     border-radius: 10%;
     margin: 20px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .menucard{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
 }
-.comp{
+.content{
     background-color: white;
+    width: 40vw;
+    text-wrap: nowrap;
+    padding: 30px;
+    border-radius: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.7rem;
+    color: rgb(117, 113, 113);
+}
+.choices{
+    text-align: start;
+    padding: 30px;
+}
+.choices p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: gray;
+    font-style: oblique;
+    text-indent: 60px;
+    font-size: 0.9rem;
+}
+.choices hr{
+    width: 50%;
 }
