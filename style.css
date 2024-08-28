@@ -7,14 +7,13 @@ body{
     background-color: #f5deb3;
     font-family: Arial, Helvetica, sans-serif;
 }
-nav{
-    display:flex;
-    position: fixed;
+.navbar{
+  position: fixed !important;
     top:0%;
-    align-items: center;
     height:150px;
-    width:100vw;
-    background-color: rgba(0, 0, 0, 0.333);
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.233);
+    
     
 }
 .navbar a{
